@@ -22,6 +22,7 @@ public class Server{
                 toClient.close();
                 fromClient.close();
                 acceptedConnection.close();
+
                 
             }catch(IOException ex){
                 ex.printStackTrace();
